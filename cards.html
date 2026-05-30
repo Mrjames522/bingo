@@ -302,7 +302,7 @@
   }
 
   function createCard() {
-    const numbers = shuffle(Array.from({ length: 25 }, (_, i) => i + 1));
+    const numbers = shuffle(Array.from({ length: 50 }, (_, i) => i + 1));
     const cells = numbers.map(n => `<div class="bingo-cell">${n}</div>`).join('');
     return `
       <div class="bingo-card">
